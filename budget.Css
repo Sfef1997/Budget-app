@@ -1,0 +1,89 @@
+body{
+    padding-top: 20px;
+}
+.perant{
+    width: fit-content;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.info{
+    background-color: #0a58cac2 !important;
+    color: white;
+    font-weight: bold;
+}
+
+.erorr{
+    display: none;
+}
+
+.show{
+    display: block;
+    color: red;
+}
+
+.expenses-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prodect{
+    margin-right: 12px;
+}
+
+.expenses-icon {
+    color: #0a58cac2 ;
+    font-size: 22px;
+    display: flex;
+    gap: 24px;
+}
+.expenses-icon i{
+cursor: pointer;
+}
+
+.alert-field {
+    position: absolute;
+    top: 100px;
+    right: 60px;
+}
+.expenses-list{
+    padding-bottom: 30px !important;
+}
+
+.clear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-radius: 12px;
+    padding: 4px 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    transition: .3s;
+}
+
+.clear:hover{
+    background-color: #0a58cac2;
+    color: #fff;
+}
+
+.percentage-ok{
+    background-color: green !important;
+    color: #fff;
+    font-size: 24px;
+    width: fit-content;
+}
+.percentage-red{
+    background-color: #FF5722 !important;
+    color: #fff;
+    font-size: 24px;
+    width: fit-content;
+}
